@@ -24,6 +24,7 @@ class DashboardUI {
       "country-details-container",
     );
   }
+
   updateCountryTimeAndOffset(country) {
     if (this.timerInterval) clearInterval(this.timerInterval);
 
