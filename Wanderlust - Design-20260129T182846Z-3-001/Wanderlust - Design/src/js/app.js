@@ -102,7 +102,7 @@ class App {
       this.ui.populateCountryList(countries);
       this.ui.loadingOverlay.classList.add("hidden");
 
-      // 6. rab t el explore btn
+      //  rab t el explore btn
       const exploreBtn = document.getElementById("global-search-btn");
       if (exploreBtn) {
         exploreBtn.addEventListener("click", async () => {
@@ -125,7 +125,7 @@ class App {
         });
       }
 
-      // 7. rab t el neg ah bor s
+      //  rab t el neg ah bor s
       document.addEventListener("click", async (e) => {
         if (e.target.classList.contains("clickable-neighbor")) {
           const countryCode = e.target.dataset.code;
